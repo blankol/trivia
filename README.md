@@ -11,7 +11,13 @@ Submit input will aceept user answer and is attached to form element to allow us
 Prevent default stops page from refreshing and is added to each element to prevent further refresh and answers submitted more than once.
 
 #Unsolved Problems
-Alert pops up before "Processing.." text. Will have to figure out how jQuery 'timeout' may delay alerts.
+Alert pops up before span "Processing.." text. Will have to figure out how jQuery 'timeout' may delay alerts.
+
+#Future Enhancements for Trivia
+Add a restart button.
+Get rid of hard code. Have questions in a JS array instead.
+Get rid of submit form and have button options available instead. 
+Have questions displayed one at a time and then score at end.
 
 #Installation
 Visit: 

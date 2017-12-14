@@ -14,11 +14,9 @@ $(document).ready(function() {
         event.preventDefault()
         var enter = $('#submit1').html()
         var score = parseInt($('.score').html())
-        var points = score + 5 
-        
+        var points = score + 5  
         // Stop user from re-entering input multiple times
         $("#submit1").prop('disabled', true) 
-
         // If and else statements for correct and wrong answer. 
         // Answer can be submitted in either lowercase or uppercase. 
         if($('#submit1').val().toUpperCase() === 'C') {   
@@ -32,6 +30,7 @@ $(document).ready(function() {
     })
 
        $('#question2').submit(function (event) {
+        $('span').text('Processing......').show().fadeOut(4000)        
         event.preventDefault()
         var enter = $('#submit2').html()
         var score = parseInt($('.score').html())
@@ -48,6 +47,7 @@ $(document).ready(function() {
        })
 
        $('#question3').submit(function (event) {
+        $('span').text('Processing......').show().fadeOut(4000)        
         event.preventDefault()
         var enter = $('#submit2').html()
         var score = parseInt($('.score').html())
@@ -64,6 +64,7 @@ $(document).ready(function() {
     })
 
     $('#question4').submit(function (event) {
+        $('span').text('Processing......').show().fadeOut(4000)        
         event.preventDefault()
         var enter = $('#submit2').html()
         var score = parseInt($('.score').html())
@@ -80,6 +81,7 @@ $(document).ready(function() {
     })
 
     $('#question5').submit(function (event) {
+        $('span').text('Processing......').show().fadeOut(4000)        
         event.preventDefault()
         var enter = $('#submit2').html()
         var score = parseInt($('.score').html())
