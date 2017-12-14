@@ -14,13 +14,14 @@ Prevent default stops page from refreshing and is added to each element to preve
 Alert pops up before span "Processing.." text. Will have to figure out how jQuery 'timeout' may delay alerts.
 
 #Future Enhancements for Trivia
+Move scoreboard to the left or right and have as fixed position when scrolling or show score at end/popup.
 Add a restart button.
 Get rid of hard code. Have questions in a JS array instead.
 Get rid of submit form and have button options available instead. 
 Have questions displayed one at a time and then score at end.
 
 #Installation
-Visit: 
+Visit: blankol.github.io
 
 #Sources:
 Source for jQuery submit form https://api.jquery.com/submit/
