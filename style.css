@@ -61,4 +61,7 @@ input[type=text] {
 .score {
     text-align: center;
     font-size: 35px;
+    border: dotted rgb(31, 224, 31);
+    padding: 10px;
+    margin: 0px 670px;
 }
