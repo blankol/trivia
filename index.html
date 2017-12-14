@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">    
     <title>80's Trivia</title>
 </head>
     <body>
@@ -13,15 +15,15 @@
                 <div="row">
                         <p class="question1"> Hall & Oates are ...</p>
                         <p>A. ... a notorious Wall Street gang. <p>
-                        <p>B. ... a nutritous oatmeal brand that was banned in the 1996.</p>
+                        <p>B. ... a nutritous oatmeal brand that was banned in 1996.</p>
                         <p>C. ... two white dudes who sing R&B pop rock.</p>  
-                        <form action="javascript:alert( 'success' );"> 
+                        <form id ="question1">
                                 <div>
                                 <input type="text" id="submit1" name="Submit Answer">
-                                <input type="button" id="button1" value="Submit">
-                                <div>
+                                <input type="button" value="Submit">
+                                </div>
                         </form> 
-                        <span></span>
+                        <span id="v1"></span>
                 </div>
                 <br>      
                 <div="row">
@@ -29,13 +31,28 @@
                         <p>A. ... because she used her underwear as a headband. <p>
                         <p>B. ... because she writhed on stage and crooned about her renewed virginity.</p>
                         <p>C. ... since she started the Chilean revolution.</p>    
-                        <input type="text" name="Submit Answer">
-                        <input type="button" value="Submit">
+                        <form id="question2">
+                                <div>
+                                <input type="text" id="submit2" name="Submit Answer">
+                                <input type="button" value="Submit">
+                                </div>
+                        </form> 
+                        <span></span>
                 </div>
                     
                 <div="row">
-                        <p class="question3"></p>
-                </div>
+                                <p class="question3"> What was the license plate number of the Delorean in Back 2 the Future?</p>
+                                <p>A. ... because she used her underwear as a headband. <p>
+                                <p>B. ... because she writhed on stage and crooned about her renewed virginity.</p>
+                                <p>C. ... since she started the Chilean revolution.</p>    
+                                <form id="question3">
+                                        <div>
+                                        <input type="text" id="submit3" name="Submit Answer">
+                                        <input type="button" value="Submit">
+                                        </div>
+                                </form> 
+                                <span></span>
+                        </div>
                         
                 <div="row">
                         <p class="question4"></p>
@@ -46,6 +63,6 @@
                 </div>    
             </main>
             <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-            <script src="script.js" type="text/javascript" defer></script>
+            <script src="script.js" defer></script>
     </body>
 </html>

@@ -1,11 +1,26 @@
 // console.log('Hello Word')
 
+$(document).ready(function() {
+     $('span').text('Validating......').show().fadeOut(4000);
+         event.preventDefault();
 
-    $('form').submit(function (event) {
-        if ($('#submit1').val() === 'C' ) {
-            $( 'span' ).text('Checking...').show();
-            return;
+    $('#question1').submit(function (event) {
+        if($('#submit1').val() === 'C') {
+            alert('Success!')    
+        } else {
+            alert('Totally Wrong!')
         }
-        $('span').text('Incorrect!').show().fadeOut(1000);
-        event.preventDefault();
-    });
+      
+    })
+    
+       $('#question2').submit(function (event) {
+           if($('#submit2').val() === 'b') {
+               alert('Success!')    
+           } else {
+               alert('Totally Wrong!')
+           }
+         
+       })
+    
+    })
+
