@@ -31,7 +31,7 @@ h3 {
 }
 
 p {
-    text-shadow: 5px 5px rgba(238, 196, 228, 0.979));      
+    text-shadow: 5px 5px rgba(238, 196, 228, 0.979);      
     font-size: 15px;
     letter-spacing: 0.09em;
     font-weight: bolder;
@@ -52,10 +52,16 @@ main {
 
 
 input[type=text] {
-    border: 2px solid rgb(31, 224, 31);
+    border: 3px solid rgb(31, 224, 31);
+    box-shadow: 0 0 5px rgb(31, 224, 31);
     background-color: rgb(12, 17, 12);
-    color: rgb(31, 224, 31);
-    width: 20px;
+    color: rgba(211, 5, 159, 0.979);
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 22px;
+    height: 22px;
 } 
 
 .score {

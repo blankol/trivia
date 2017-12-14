@@ -10,8 +10,7 @@ $(document).ready(function() {
     // Scoring attached to specific question.
     // Prevent default to stop page from refreshing plus keep score count.    
     $('#question1').submit(function (event) {
-        $('span').text('Processing......').show().fadeOut(4000); 
-        event.preventDefault();
+        $('span').text('Processing......').show().fadeOut(4000)
         event.preventDefault()
         var enter = $('#submit1').html()
         var score = parseInt($('.score').html())
@@ -26,10 +25,10 @@ $(document).ready(function() {
         parseInt($('.score').html(points))
             alert('Outrageous!')    
         } else {
-            alert('Totally Wrong!')
+            alert('Totally Totally Wrong!')
         }
         // 'return false' (Can also be used)
-      
+
     })
 
        $('#question2').submit(function (event) {
