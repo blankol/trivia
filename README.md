@@ -1,2 +1,2 @@
-# trivia
-project 1 (GA)
+# Trivia
+Project 1 (GA)

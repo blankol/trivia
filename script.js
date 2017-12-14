@@ -2,10 +2,15 @@
 
 $(document).ready(function() {
 
-    // Working on text below form entering before alert. 
+    // Work in progress: 'Processing' text below form to enter after submit and before alert. 
      $('span').text('Processing......').show().fadeOut(4000); 
-         event.preventDefault();
+        //  event.preventDefault();
 
+    // Question function event.
+    // Scoring attached to specific question.
+    // Prevent default to stop page from refreshing plus keep score count.
+    // If and else statements for correct and wrong answer. 
+    // Answer can be submitted in either lowercase or uppercase.     
     $('#question1').submit(function (event) {
         event.preventDefault()
         var enter = $('#submit1').html()
@@ -17,7 +22,7 @@ $(document).ready(function() {
         } else {
             alert('Totally Wrong!')
         }
-        // return false (Can also be used)
+        // 'return false' (Can also be used)
       
     })
 
@@ -28,9 +33,9 @@ $(document).ready(function() {
         var points = score + 5 
            if($('#submit2').val().toUpperCase() === 'B' ) {
             parseInt($('.score').html(points))
-               alert('Success!')    
+               alert('OUTRAGEOUS!')    
            } else {
-               alert('Totally Wrong!')
+               alert('Totally Totally Wrong!')
            }
          
        })
@@ -42,7 +47,7 @@ $(document).ready(function() {
         var points = score + 5 
         if($('#submit3').val().toUpperCase() === 'C') {
         parseInt($('.score').html(points))        
-            alert('Success!')    
+            alert('OUTRAGEOUS!')    
         } else {
             alert('Totally Wrong!')
         }
@@ -56,7 +61,7 @@ $(document).ready(function() {
         var points = score + 5 
         if($('#submit4').val().toUpperCase() === 'B') {
         parseInt($('.score').html(points))     
-            alert('Success!')    
+            alert('OUTRAGEOUS!')    
         } else {
             alert('Totally Wrong!')
         }
@@ -70,7 +75,7 @@ $(document).ready(function() {
         var points = score + 5 
         if($('#submit5').val().toUpperCase() === 'C') {
         parseInt($('.score').html(points))      
-            alert('Success!')    
+            alert('OUTRAGEOUS!')    
         } else {
             alert('Totally Wrong!')
         }
@@ -81,3 +86,4 @@ $(document).ready(function() {
 
 
 // Source for jQuery submit form https://api.jquery.com/submit/
+// Sources from PixelArt and ATM Lab.
