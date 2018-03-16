@@ -96,9 +96,7 @@ $(document).ready(function() {
         }
     // })
     })
-    
     })
-
 
 // Source for jQuery submit form https://api.jquery.com/submit/
 // Source for disabling user from inputing more than once: https://stackoverflow.com/questions/1414365/disable-enable-an-input-with-jquery
