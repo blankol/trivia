@@ -1,3 +1,4 @@
+/* Your styling looks really great! You nailed the retro vibe. */
 body {
     background:rgb(12, 17, 12);
     color:  rgb(31, 224, 31);
@@ -11,22 +12,19 @@ h1 {
     font-size: 70px;
     letter-spacing: 0.03em;
     text-align: center;
-    
 }
 
 h2 {
     text-align: center;
     letter-spacing: 0.04em; 
-    font-size: 35px;  
-   
+    font-size: 35px;    
 }
 
 h3 {
     text-align: center;
     font-size: 22px;
     letter-spacing: 0.06em;
-    color: rgba(211, 5, 159, 0.979);
-    
+    color: rgba(211, 5, 159, 0.979);  
 }
 
 p {

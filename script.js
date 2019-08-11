@@ -1,3 +1,18 @@
+// looks good however your code is not DRY. Consider ways in which you could write 1 function to accommodate all of your questions. You could use a loop to create click events for each question.
+// You could also consider creating HTML elements for each question using JS. You would need an array of objects containing all of the necessary components of your questions and a loop to insert elements into the dom for each question in the array.
+// let questions = [
+//   {
+//     question: 'Hall & Oates are ...?',
+//     choiceA: '... a notorious Wall Street gang.'
+//     choiceB: '... a nutritous oatmeal brand that was banned in 1996.'
+//     choiceC: '... two white dudes who sing R&B pop rock.'
+//     answer: 'C'
+//   },
+//   {
+//     repeat for additional questions...
+//   }
+// ]
+
 // console.log('Hello Word')
 
 $(document).ready(function() {
